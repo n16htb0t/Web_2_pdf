@@ -1,7 +1,7 @@
 # Nikto_Nuclie_web
 
 
-## change file permission of check.sh
+## Change file permission of check.sh
 chmod +x check.sh
 
 and setup your github to push your work
