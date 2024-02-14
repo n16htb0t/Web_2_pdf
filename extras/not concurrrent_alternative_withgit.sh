@@ -22,7 +22,7 @@ ps2pdf output.ps output.pdf
 if [ -d "results" ]; then
     timestamp=$(date +%Y%m%d%H%M)
     mv output.pdf results/$1_output_${timestamp}.pdf
-    echo "Output saved in results/output_${timestamp}_$i.pdf"
+    echo "Output saved in results/$1_output_${timestamp}.pdf"
 
     cd results || exit
     git add .
@@ -35,7 +35,7 @@ else
     mkdir results
     timestamp=$(date +%Y%m%d%H%M%S)
     mv output.pdf results/$1_output_${timestamp}.pdf
-    echo "Output saved in results/output_${timestamp}_$i.pdf"
+    echo "Output saved in results/$1_output_${timestamp}.pdf"
 
     cd results || exit
     git init
