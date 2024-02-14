@@ -34,12 +34,12 @@ ps2pdf output.ps output.pdf
 if [ -d "results" ]; then
     timestamp=$(date "+%Y-%m-%d_%H-%M-%S")
     mv output.pdf "results/$1_output_${timestamp}.pdf"
-    echo "Output saved in results/output_${timestamp}_$1.pdf"
+    echo "Output saved in results/$1_output_${timestamp}.pdf"
 else
     mkdir results
     timestamp=$(date "+%Y-%m-%d_%H-%M-%S")
     mv output.pdf "results/$1_output_${timestamp}.pdf"
-    echo "Output saved in results/output_${timestamp}_$1.pdf"
+    echo "Output saved in results/$1_output_${timestamp}.pdf"
 fi
 
 # Clean up temporary text and PostScript files
