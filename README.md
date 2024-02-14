@@ -1,6 +1,6 @@
 # Nikto_Nuclie_web
 
-## Installtion
+## installation
 - git clone https://github.com/n16htb0t/Web_2_pdf/
 
 ## Setup
