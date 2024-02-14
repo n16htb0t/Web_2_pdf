@@ -14,7 +14,7 @@ docker pull daksh1222/automate_nuclei_nikto
 
 
 
-# INDEX Page:
+# Index Page:
 ![image](https://github.com/n16htb0t/Web_2_pdf/assets/132843656/8d172d90-01ef-49d4-8d68-222b8affbfa9)
 
 ## Success Page:
