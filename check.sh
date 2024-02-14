@@ -34,7 +34,7 @@ fi
 
 timestamp=$(date "+%Y-%m-%d_%H-%M-%S")
 mv output.pdf "results/$1_output_${timestamp}.pdf"
-echo "Output saved in results/output_${timestamp}_$1.pdf"
+echo "Output saved in results/$1_output_${timestamp}.pdf"
 
 rm output.txt output.ps  # Deleting temporary text and PostScript files
 
