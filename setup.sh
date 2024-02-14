@@ -1,6 +1,6 @@
 #!/bin/bash
 if [ -z "$1" ]; then
-    echo "Usage: $0 <Sudo password>"https://github.com/n16htb0t/Web_2_pdf/edit/main/setup.sh
+    echo "Usage: $0 <Sudo password>"
     exit 1
 fi
 
